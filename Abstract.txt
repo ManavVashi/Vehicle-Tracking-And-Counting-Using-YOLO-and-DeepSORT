@@ -1,0 +1,9 @@
+Over the course of one and a half months, our team poured our full dedication and hard work into developing a solution for vehicle detection and classification. While our project may not be real-time and might not match the capabilities of some other competitive solutions, it reflects our serious commitment to solving this complex problem.
+
+We custom-trained the YOLOv8m model specifically for this task, choosing it over YOLOv5 after thorough evaluation due to its superior accuracy and performance. This decision demonstrates our willingness to embrace the best tools available in machine learning to achieve our goals.
+
+For tracking, we explored various algorithms, including the Kalman Filter, but ultimately selected DeepSORT because of its proven accuracy in challenging, multi-object tracking scenarios. Integrating DeepSORT with our YOLOv8m detection pipeline allowed us to track vehicles with precision, even in dynamic traffic conditions.
+
+Our implementation is thoughtfully organized into two key scripts: main.py and tracker.py. The main.py script handles detection, tracking, and classification, ensuring thorough analysis of vehicle movements. The tracker.py script takes on the intricate task of tracking, using DeepSORT to manage object motion and re-identification.
+
+We humbly present this project as a testament to our dedication, innovation, and teamwork. While it may not be perfect, it represents our sincere effort to address a real-world challenge with the best of our abilities.
